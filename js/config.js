@@ -2,8 +2,8 @@
 var SITE = {
   brandName: "Lucky Creation",
   tagline: "Stories, shaped by light.",
-  whatsappNumber: "919950543576",
-  instagramUrl: "https://www.instagram.com/",
+  whatsappNumber: "919928714612",
+  instagramUrl: "https://www.instagram.com/__iiamlucky?utm_source=ig_web_button_share_sheet&exln=ZDNlZDc0MzIxNw==",
   youtubeUrl: "https://www.youtube.com/",
   profilePhotoUrl: "",
   externalProfileUrl: "",
