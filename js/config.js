@@ -14,7 +14,7 @@ var SITE = {
     title: "Grow your business online with a website that sells for you",
     subtitle: "Custom, fast, mobile-friendly websites for shops, studios and brands.",
     buttonText: "View my work",
-    url: "https://YOUR-PORTFOLIO-LINK.com/?utm_source=pushkar-videographer&utm_medium=badge"
+    url: "https://yuvrajluva.github.io/portfolio"
   },
   CLOUD_NAME: "luckycreationcloud",
 
