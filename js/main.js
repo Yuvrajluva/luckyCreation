@@ -153,6 +153,19 @@
     badgeLink.replaceWith(staticBadge);
   }
 
+    var devBadge = document.querySelector("[data-dev-badge]");
+  if (devBadge) {
+    var d = SITE.devBadge || {};
+    if (!d.enabled || !d.url) {
+      devBadge.remove();
+    } else {
+      devBadge.href = d.url;
+      devBadge.querySelector("[data-dev-eyebrow]").textContent = d.eyebrow;
+      devBadge.querySelector("[data-dev-title]").textContent = d.title;
+      devBadge.querySelector("[data-dev-sub]").textContent = d.subtitle;
+      devBadge.querySelector("[data-dev-cta]").firstChild.textContent = d.buttonText + " ";
+    }
+  }
   if (window.AOS) {
     try { window.AOS.init({ duration: 650, once: true, offset: 50, easing: "ease-out-cubic" }); }
     catch (error) { document.documentElement.classList.add("aos-fallback"); }
