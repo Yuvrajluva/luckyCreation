@@ -8,6 +8,14 @@ var SITE = {
   profilePhotoUrl: "",
   externalProfileUrl: "",
   bigBadgeText: "Scale your business online",
+    devBadge: {
+    enabled: true,
+    eyebrow: "🚀 Website by YOUR NAME",
+    title: "Grow your business online with a website that sells for you",
+    subtitle: "Custom, fast, mobile-friendly websites for shops, studios and brands.",
+    buttonText: "View my work",
+    url: "https://YOUR-PORTFOLIO-LINK.com/?utm_source=pushkar-videographer&utm_medium=badge"
+  },
   CLOUD_NAME: "luckycreationcloud",
 
   /* HERO VIDEO
