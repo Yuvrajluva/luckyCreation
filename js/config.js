@@ -94,14 +94,14 @@ var SITE = {
     { id: "video02_mp4_compress", title: "Welcome to Our New Space ✨" },
     { id: "video03_mp4_compress", title: "Worshipping God: My Daily Spiritual Routine" },
     { id: "video04Compressed", title: "Birthday Vlog: Cake, Friends & Good Times! 🎂" },
-    { id: "IMG_7954", title: "Finding Peace in Worship and Prayer" },
-    { id: "IMG_3605", title: "Welcome to Our New Space ✨" },
-    { id: "IMG_7957", title: "Worshipping God: My Daily Spiritual Routine" },
-    { id: "video04Compressed", title: "Birthday Vlog: Cake, Friends & Good Times! 🎂" },
+    { id: "IMG_7954", title: "Two Hearts, One Promise" },
+    { id: "IMG_3605", title: "Sparkles, Sound & Celebrations 🎆" },
+    { id: "IMG_7957", title: "Night Is Young, So Are We ✨" },
     { id: "video01_mp4_compress", title: "Finding Peace in Worship and Prayer" },
-    { id: "video02_mp4_compress", title: "Welcome to Our New Space ✨" },
-    { id: "video03_mp4_compress", title: "Worshipping God: My Daily Spiritual Routine" },
-    { id: "video04Compressed", title: "Birthday Vlog: Cake, Friends & Good Times! 🎂" }
+    // { id: "video01_mp4_compress", title: "Finding Peace in Worship and Prayer" },
+    // { id: "video02_mp4_compress", title: "Welcome to Our New Space ✨" },
+    // { id: "video03_mp4_compress", title: "Worshipping God: My Daily Spiritual Routine" },
+    // { id: "video04Compressed", title: "Birthday Vlog: Cake, Friends & Good Times! 🎂" }
   ]
 };
 
