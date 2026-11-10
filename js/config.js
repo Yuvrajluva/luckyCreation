@@ -73,8 +73,8 @@ var SITE = {
   ],
    photos: [
     { id: "IMG_7805", title: "Golden Hour in Pushkar" },
-    { id: "IMG_7249.JPG", title: "Life Along the Holy Ghats" },
-    { id: "IMG_7293.JPG", title: "Devotees at Pushkar Lake" },
+    { id: "IMG_7249", title: "Life Along the Holy Ghats" },
+    { id: "IMG_7293", title: "Devotees at Pushkar Lake" },
     { id: "demo_photo_04", title: "Where Faith Meets the Water" },
      { id: "IMG_7805", title: "Golden Hour in Pushkar" },
     { id: "IMG_7249.JPG", title: "Life Along the Holy Ghats" },
