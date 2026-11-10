@@ -77,16 +77,16 @@ var SITE = {
     { id: "IMG_7293", title: "Devotees at Pushkar Lake" },
     { id: "demo_photo_04", title: "Where Faith Meets the Water" },
      { id: "IMG_7805", title: "Golden Hour in Pushkar" },
-    { id: "IMG_7249.JPG", title: "Life Along the Holy Ghats" },
-    { id: "IMG_7293.JPG", title: "Devotees at Pushkar Lake" },
+    { id: "IMG_7249", title: "Life Along the Holy Ghats" },
+    { id: "IMG_7293", title: "Devotees at Pushkar Lake" },
     { id: "demo_photo_04", title: "Where Faith Meets the Water" },
      { id: "IMG_7805", title: "Golden Hour in Pushkar" },
-    { id: "IMG_7249.JPG", title: "Life Along the Holy Ghats" },
-    { id: "IMG_7293.JPG", title: "Devotees at Pushkar Lake" },
+    { id: "IMG_7249", title: "Life Along the Holy Ghats" },
+    { id: "IMG_7293", title: "Devotees at Pushkar Lake" },
     { id: "demo_photo_04", title: "Where Faith Meets the Water" },
      { id: "IMG_7805", title: "Golden Hour in Pushkar" },
-    { id: "IMG_7249.JPG", title: "Life Along the Holy Ghats" },
-    { id: "IMG_7293.JPG", title: "Devotees at Pushkar Lake" },
+    { id: "IMG_72492", title: "Life Along the Holy Ghats" },
+    { id: "IMG_7293", title: "Devotees at Pushkar Lake" },
     { id: "demo_photo_04", title: "Where Faith Meets the Water" }
   ],
   videos: [
@@ -98,10 +98,10 @@ var SITE = {
     { id: "IMG_3605", title: "Sparkles, Sound & Celebrations 🎆" },
     { id: "IMG_7957", title: "Night Is Young, So Are We ✨" },
     { id: "video01_mp4_compress", title: "Finding Peace in Worship and Prayer" },
-    // { id: "video01_mp4_compress", title: "Finding Peace in Worship and Prayer" },
-    // { id: "video02_mp4_compress", title: "Welcome to Our New Space ✨" },
-    // { id: "video03_mp4_compress", title: "Worshipping God: My Daily Spiritual Routine" },
-    // { id: "video04Compressed", title: "Birthday Vlog: Cake, Friends & Good Times! 🎂" }
+    { id: "video01_mp4_compress", title: "Finding Peace in Worship and Prayer" },
+    { id: "video02_mp4_compress", title: "Welcome to Our New Space ✨" },
+    { id: "video03_mp4_compress", title: "Worshipping God: My Daily Spiritual Routine" },
+    { id: "video04Compressed", title: "Birthday Vlog: Cake, Friends & Good Times! 🎂" }
   ]
 };
 
