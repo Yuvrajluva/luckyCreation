@@ -1,0 +1,69 @@
+/* Change these values to match your website's theme */
+:root {
+  --bg: #ffffff;
+  --text: #1f2430;
+  --muted: #6b7280;
+  --accent: #2563eb;
+  --border: #e5e7eb;
+  --font: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0f1117;
+    --text: #e6e8ee;
+    --muted: #9aa1b0;
+    --accent: #7aa2ff;
+    --border: #272b36;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+main {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 56px 24px 80px;
+}
+
+h1 {
+  font-size: 2rem;
+  line-height: 1.25;
+  margin: 0 0 6px;
+}
+
+.updated {
+  color: var(--muted);
+  font-size: 0.95rem;
+  margin: 0 0 28px;
+}
+
+h2 {
+  font-size: 1.25rem;
+  margin: 40px 0 10px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border);
+}
+
+p { margin: 0 0 14px; }
+
+ul, ol { margin: 0 0 14px; padding-left: 1.4em; }
+li { margin-bottom: 8px; }
+
+a { color: var(--accent); }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+@media (max-width: 520px) {
+  body { font-size: 16px; }
+  main { padding: 36px 18px 60px; }
+  h1 { font-size: 1.6rem; }
+}
