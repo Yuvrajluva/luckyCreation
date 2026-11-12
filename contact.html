@@ -48,6 +48,11 @@
             <div class="field"><label for="location">Shoot location *</label><input id="location" name="location" autocomplete="address-level2" placeholder="Town, venue or area" required aria-describedby="error-location"><span class="field-error" id="error-location" data-error-for="location"></span></div>
             <div class="field"><label for="mobile">Mobile number *</label><input id="mobile" name="mobile" type="tel" autocomplete="tel" inputmode="tel" placeholder="+91 ..." required aria-describedby="error-mobile"><span class="field-error" id="error-mobile" data-error-for="mobile"></span></div>
             <div class="field field--full"><label for="description">Tell me about the project *</label><textarea id="description" name="description" required placeholder="What are you making, and what should it feel like?" aria-describedby="error-description"></textarea><span class="field-error" id="error-description" data-error-for="description"></span></div>
+                <label class="terms-check">
+                <input type="checkbox" id="terms" name="terms" required aria-describedby="error-terms">
+                <span>I agree to the <a href="/terms-of-service.html" target="_blank" rel="noopener">Terms of Service</a> *</span>
+              </label>
+              <span class="field-error" id="error-terms" data-error-for="terms"></span>
           </div>
           <p class="form-note">Submitting opens WhatsApp with your booking details filled in. Review the message before sending it.</p>
           <button class="button button--primary" type="submit">Continue to WhatsApp <span aria-hidden="true">↗</span></button>
