@@ -29,15 +29,19 @@
     if (error) error.textContent = message;
   }
 
-  function validateField(field) {
-    var value = field.value.trim();
-    var message = "";
+   function validateField(field) {
+  var value = field.value.trim();
+  var message = "";
+  if (field.type === "checkbox") {
+    if (field.required && !field.checked) message = "Please accept the Terms of Service to continue.";
+  } else {
     if (field.required && !value) message = "Please complete this field.";
     if (field.name === "mobile" && value && !/^\+?[\d\s().-]{7,20}$/.test(value)) message = "Enter a valid mobile number.";
     if (field.name === "mobile" && value && value.replace(/\D/g, "").length < 7) message = "Enter at least 7 digits.";
-    setError(field, message);
-    return !message;
   }
+  setError(field, message);
+  return !message;
+}
 
   form.querySelectorAll("[required]").forEach(function (field) {
     field.addEventListener("blur", function () { validateField(field); });
@@ -82,7 +86,9 @@
       "Mobile: " + formData.get("mobile"),
       "",
       "Project details:",
-      formData.get("description")
+      formData.get("description"),
+      "",
+      "✔ Agreed to Terms of Service (version: November 2026)"
     ].join("\n");
     lastWhatsAppUrl = "https://wa.me/" + String(SITE.whatsappNumber || "").replace(/\D/g, "") + "?text=" + encodeURIComponent(message);
     openWhatsApp();
